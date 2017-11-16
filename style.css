@@ -1,0 +1,69 @@
+body{ 
+  background: url(images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-wrapper{
+	width: 80vw;
+}
+
+.circle{
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	transition: 0.3s linear;
+	box-shadow: 0 0 4px #04c2db ,0 0 8px #04c2db, 0 0 16px #04c2db,
+	0 0 24px #04c2db, 0 0 32px #04c2db, 0 0 45px #04c2db, 0 0 60px #04c2db;
+}
+}
+
+
+.row-2{
+	position: relative;
+	top: -30px;
+}
+.row-3{
+	position: relative;
+	top: -30px;
+}
+.row-4{
+	position: relative;
+	top: -240px;
+}
+.row-5{
+	position: relative;
+	top: -240px;
+}
+.row-6{
+	position: relative;
+	top: -240px;
+}
+.circle-wrapper{
+	text-align: center;
+}
+
+#workshop{
+	background: transparent;
+	display: table;
+}
+
+div.container.main-wrapper{
+	background: transparent;
+}
+#cog-icon{
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	transition: 0.3s linear;
+}
+#cog-icon:hover{
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff,
+	0 0 20px #04c2db, 0 0 30px #04c2db, 0 0 40px #04c2db, 0 0 55px #04c2db, 0 0 75px #04c2db;
+	transform: rotate(360deg);
+}
