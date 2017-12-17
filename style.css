@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 
+html{
+	height: 100vh;
+}
+
 body{ 
-  background: url(images/background.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(images/background.jpg) no-repeat; 
   background-size: cover;
   font-family: 'Advent Pro', sans-serif;
+  height: 100vh;
+
 }
 
 .main-wrapper{
@@ -22,6 +25,11 @@ h1{
   	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
+.circle-wrapper{
+	z-index: 100;
+}
+
+
 .circle{
 	height: 140px;
 	width: 140px;
@@ -32,7 +40,7 @@ h1{
 	/*box-shadow: 0 0 4px #04c2db ,0 0 8px #04c2db, 0 0 16px #04c2db,
 	0 0 24px #04c2db, 0 0 32px #04c2db, 0 0 45px #04c2db, 0 0 60px #04c2db;*/
 }
-}
+
 
 
 .row-2{
@@ -66,6 +74,7 @@ h1{
 
 div.container.main-wrapper{
 	background: transparent;
+	height: 100vh;
 }
 #cog-icon, #fire-icon, #briefcase-icon, #graduation-cap-icon, #cubes-icon,#flag-icon,#user-icon,#users-icon,#sign-in-icon{
 	color: white;
@@ -77,7 +86,7 @@ div.container.main-wrapper{
 #cog-icon:hover, #fire-icon:hover, #briefcase-icon:hover, #graduation-cap-icon:hover, #cubes-icon:hover,#flag-icon:hover,#user-icon:hover,#users-icon:hover,#sign-in-icon:hover{
 	/*transform: rotate(360deg);*/
 	font-size: 7em;
-	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
 }
 
 @-webkit-keyframes neon1 {
@@ -99,5 +108,5 @@ div.container.main-wrapper{
 #male-icon:hover{
 	/*transform: rotate(360deg);*/
 	font-size: 7em;
-	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
 }
