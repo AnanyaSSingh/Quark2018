@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
 body{ 
   background: url(images/background.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Advent Pro', sans-serif;
 }
 
 .main-wrapper{
 	width: 80vw;
+}
+
+h1{
+	font-size: 6.5em;
+	font-weight: 500;
+	color: #fff;
+	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  	animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
 .circle{
@@ -17,8 +29,8 @@ body{
 	text-align: center;
 	display: inline-block;
 	transition: 0.3s linear;
-	box-shadow: 0 0 4px #04c2db ,0 0 8px #04c2db, 0 0 16px #04c2db,
-	0 0 24px #04c2db, 0 0 32px #04c2db, 0 0 45px #04c2db, 0 0 60px #04c2db;
+	/*box-shadow: 0 0 4px #04c2db ,0 0 8px #04c2db, 0 0 16px #04c2db,
+	0 0 24px #04c2db, 0 0 32px #04c2db, 0 0 45px #04c2db, 0 0 60px #04c2db;*/
 }
 }
 
@@ -55,15 +67,37 @@ body{
 div.container.main-wrapper{
 	background: transparent;
 }
-#cog-icon{
+#cog-icon, #fire-icon, #briefcase-icon, #graduation-cap-icon, #cubes-icon,#flag-icon,#user-icon,#users-icon,#sign-in-icon{
 	color: white;
 	display: table-cell;
 	vertical-align: middle;
-	transition: 0.3s linear;
+	transition: 0.1s linear;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
 }
-#cog-icon:hover{
-	color: #fff;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff,
-	0 0 20px #04c2db, 0 0 30px #04c2db, 0 0 40px #04c2db, 0 0 55px #04c2db, 0 0 75px #04c2db;
-	transform: rotate(360deg);
+#cog-icon:hover, #fire-icon:hover, #briefcase-icon:hover, #graduation-cap-icon:hover, #cubes-icon:hover,#flag-icon:hover,#user-icon:hover,#users-icon:hover,#sign-in-icon:hover{
+	/*transform: rotate(360deg);*/
+	font-size: 7em;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+
+#male-icon{
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	transition: 0.1s linear;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+}
+#male-icon:hover{
+	/*transform: rotate(360deg);*/
+	font-size: 7em;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
 }
