@@ -16,13 +16,17 @@ body{
 	width: 80vw;
 }
 
+a{
+	text-decoration: none !important; 
+}
+
 h1{
 	font-size: 6.5em;
 	font-weight: 500;
 	color: #fff;
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  	animation: neon1 1.5s ease-in-out infinite alternate;
+	-webkit-animation: neon1 1s ease-in-out infinite alternate;
+  	-moz-animation: neon1 1s ease-in-out infinite alternate;
+  	animation: neon1 1s ease-in-out infinite alternate;
 }
 
 .circle-wrapper{
